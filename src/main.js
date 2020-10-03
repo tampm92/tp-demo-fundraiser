@@ -3,6 +3,7 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import './assets/tailwind.css'
+import './assets/scss/main.scss'
 
 import Layout from './layouts/layout'
 import DefaultLayout from './layouts/default-layout.vue'

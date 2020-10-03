@@ -89,11 +89,6 @@
     >
       <template slot="body">
         <div class="-mx-3 md:flex mb-6">
-          <div class="md:w-full px-3 text-center">
-            <img class="m-auto" :src="fundraiserSelected.ImagePath">
-          </div>
-        </div>
-        <div class="-mx-3 md:flex mb-6">
           <div class="md:w-1/2 px-3">
             <label class="block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2" for="grid-password">
               Id
@@ -140,6 +135,11 @@
               :value="fundraiserSelected.Total"
               disabled
             >
+          </div>
+        </div>
+        <div class="-mx-3 md:flex mb-6">
+          <div class="md:w-full px-3 text-center">
+            <img class="m-auto" :src="fundraiserSelected.ImagePath">
           </div>
         </div>
       </template>

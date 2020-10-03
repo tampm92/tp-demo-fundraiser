@@ -31,5 +31,8 @@
 
 <script>
 export default {
+  created() {
+    document.title = 'About - Fundraiser'
+  },
 }
 </script>
